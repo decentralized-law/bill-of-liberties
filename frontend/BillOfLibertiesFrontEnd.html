@@ -1,0 +1,73 @@
+<!-- Container div for displaying the blockchain content -->
+<div id="blockchain-rights">Loading...</div>
+
+
+<!-- Load ethers.js library for blockchain interaction -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/5.7.2/ethers.umd.min.js"></script>
+
+
+<script>
+// Wait for page to fully load before running
+document.addEventListener('DOMContentLoaded', function() {
+    // Get reference to display container
+    const displayArea = document.getElementById('blockchain-rights');
+
+    // Customizable styling for title and text
+    const titleStyle = "font-family: 'Lucida Console', cursive; font-weight: bold; font-size: 2em; margin-bottom: 10px";
+    const textStyle = "font-family: Arial, sans-serif;";
+    const containerStyle = "white-space: pre-wrap; padding-left: 20px;";
+
+    // Contract address on Ethereum Mainnet
+    const contractAddress = "0xdD7150425FE924f1e5D4d650AEBaA6365b1CB7dA";
+
+    // Public RPC endpoint for Ethereum Mainnet
+    const rpcUrl = "https://ethereum.publicnode.com";
+
+    // Contract interface definition - simplified for string view functions
+    const contractABI = {
+        "inputs": [],
+        "outputs": [{"type": "string"}],
+        "stateMutability": "view",
+        "type": "function"
+    };
+
+    // Function to fetch and display text from blockchain
+    async function getBlockchainText() {
+        try {
+            // Verify ethers.js is loaded
+            if (typeof ethers === 'undefined') {
+                throw new Error('Ethers.js not loaded');
+            }
+
+            // Connect to Ethereum network and create contract instance
+            const provider = new ethers.providers.JsonRpcProvider(rpcUrl);
+            const contract = new ethers.Contract(contractAddress, [
+                { ...contractABI, "name": "title" },
+                { ...contractABI, "name": "text" }
+            ], provider);
+
+            // Get title and text in parallel
+            const [title, text] = await Promise.all([contract.title(), contract.text()]);
+
+            // Set container formatting
+            Object.assign(displayArea.style, {
+                whiteSpace: "pre-wrap",
+                padding: "20px"
+            });
+
+            // Display content with separate styling
+            displayArea.innerHTML = `
+                <div style="${titleStyle}">${title}</div><div style="${textStyle}">${text}</div>
+            `;
+      
+         } catch (error) {
+           // Handle errors by showing message and logging details
+           displayArea.innerHTML = "Error loading text. Please check the console.";
+           console.error("Error details:", error);
+         }
+    }
+
+    // Start fetching the text
+    getBlockchainText();
+});
+</script>
