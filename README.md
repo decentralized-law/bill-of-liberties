@@ -133,7 +133,7 @@ We welcome contributions, especially official/professional translations of the D
 - **Bill of Liberties Text**: CC0 1.0 Universal - Public Domain Dedication
 - **Code (Smart Contract and Frontend)**: MIT License
 
-See the [LICENSE](LICENSE) file for details.
+See the [LICENSE](LICENSE.MD) file for details.
 
 ---
 
