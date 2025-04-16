@@ -75,6 +75,14 @@ This project permanently stores the Decentralized Bill of Liberties on the Ether
 
 This project is a first initiative to publish law on blockchain. It aims to demonstrate that decentralized blockchains can serve humanity in other ways than just with transactions. It invites you to think of new ways of law creation outside existing jurisdictions. While this initial example is a static on-chain publication, future decentralized law-making will make use of an off-chain body of law accepted and amended by the same voting techniques known to other crypto projects.
 
+### Why Do We Need This Bill of Liberties?
+
+The Decentralized Bill of Liberties addresses a critical gap in our legal frameworks. Despite the widespread acceptance of human rights principles, modern legal systems were designed for centralized structures and struggle to accommodate decentralized technologies. As threats to liberty evolve beyond nation-states to include international institutions, debt-based financial systems, NGOs, and cross-border technology, we need a bill of rights that protects all humans equally while existing independently of institutions—one that is not a codification of ideology, does not treat individuals as means to an end, and exists separately from (supra)national governing layers.
+
+The Decentralized Bill of Liberties can be implemented in various contexts. It can serve as a moral compass for participants in decentralized networks to assess behavior, regulations, and technologies. When establishing social smart contracts—whether DAOs, network states, or other Decentralized Law instruments—entities can "call" the DBoL during the creation process. Because it is uploaded to the blockchain it can serve as an objective legal standard for both blockchain projects and AI, similar to how smart contract software calls libraries of code. The DBoL can also inspire citizens of countries that currently do not have a bill of rights and function as a "prenuptial agreement" to any kind of social contract, establishing clear boundaries between collective rule and individual liberty.
+
+[Read the full rational behind the Decentralized Bill of Liberties...](decentralized-bill-of-liberties.md) for more details.
+
 ## Getting Started
 
 ### Display the Bill of Liberties on Your Website
@@ -128,10 +136,11 @@ A comprehensive chapter on the theory of rights and the rational basis for these
 
 We welcome contributions, especially official/professional translations of the Decentralized Bill of Liberties into different languages. See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to submit translations and other contributions.
 
-## License
+## Licenses
 
 - **Bill of Liberties Text**: CC0 1.0 Universal - Public Domain Dedication
 - **Code (Smart Contract and Frontend)**: MIT License
+- **PDF Explanation**: CC BY-ND 4.0.
 
 See the [LICENSE](LICENSE.MD) file for details.
 
