@@ -81,7 +81,7 @@ The Decentralized Bill of Liberties addresses a critical gap in our legal framew
 
 The Decentralized Bill of Liberties can be implemented in various contexts. It can serve as a moral compass for participants in decentralized networks to assess behavior, regulations, and technologies. When establishing social smart contracts—whether DAOs, network states, or other Decentralized Law instruments—entities can "call" the DBoL during the creation process. Because it is uploaded to the blockchain it can serve as an objective legal standard for both blockchain projects and AI, similar to how smart contract software calls libraries of code. The DBoL can also inspire citizens of countries that currently do not have a bill of rights and function as a "prenuptial agreement" to any kind of social contract, establishing clear boundaries between collective rule and individual liberty.
 
-[Read the full rational behind the Decentralized Bill of Liberties...](assets/dbol-explanatory-article.pdf) for more details.
+[Read the full rational behind the Decentralized Bill of Liberties...](./assets/dbol-explanatory-article.pdf)
 
 ## Getting Started
 
@@ -125,7 +125,7 @@ For more detailed technical information, see the [Deployment Documentation](./do
 
 - **Official Website**: Coming soon
 - **Ethereum Contract**: [0xdD7150425FE924f1e5D4d650AEBaA6365b1CB7dA](https://etherscan.io/address/0xdD7150425FE924f1e5D4d650AEBaA6365b1CB7dA)
-- **PDF Document**: [Decentralized Bill of Liberties.pdf](./assets/Decentralized-Bill-of-Liberties.pdf)
+- **PDF Document**: [Decentralized Bill of Liberties.pdf](./assets/decentralized-bill-of-liberties.pdf)
 - **IPFS**: [ipfs://bafkreictr35gzfbpfvgjisui3k3pm2nms4h3mx2hlyezxfjc2kca2f34du](https://ipfs.io/ipfs/bafkreictr35gzfbpfvgjisui3k3pm2nms4h3mx2hlyezxfjc2kca2f34du)
 
 ## Coming Soon
