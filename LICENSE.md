@@ -37,3 +37,16 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+## 3. Explanatory Article License
+
+The explanatory article is can be freely distributed, but not altered. This is to prevent misrepresentation of the ideas and the extensive research that went into the creation of this particular bill.
+
+**CC BY-ND 4.0 - Creative Commons Attribution-NoDerivatives 4.0 International**
+
+This license requires that reusers give credit to the creator. It allows reusers to copy and distribute the material in any medium or format in unadapted form only, even for commercial purposes.
+
+    BY: Credit must be given to the creator.
+    ND: No derivatives or adaptations of the work are permitted. 
+
+To view a copy of this license, visit https://creativecommons.org/licenses/by-nd/4.0/
