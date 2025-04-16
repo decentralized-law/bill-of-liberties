@@ -81,7 +81,7 @@ The Decentralized Bill of Liberties addresses a critical gap in our legal framew
 
 The Decentralized Bill of Liberties can be implemented in various contexts. It can serve as a moral compass for participants in decentralized networks to assess behavior, regulations, and technologies. When establishing social smart contracts—whether DAOs, network states, or other Decentralized Law instruments—entities can "call" the DBoL during the creation process. Because it is uploaded to the blockchain it can serve as an objective legal standard for both blockchain projects and AI, similar to how smart contract software calls libraries of code. The DBoL can also inspire citizens of countries that currently do not have a bill of rights and function as a "prenuptial agreement" to any kind of social contract, establishing clear boundaries between collective rule and individual liberty.
 
-[Read the full rational behind the Decentralized Bill of Liberties...](decentralized-bill-of-liberties.md) for more details.
+[Read the full rational behind the Decentralized Bill of Liberties...](assets/dbol-explanatory-article.pdf) for more details.
 
 ## Getting Started
 
