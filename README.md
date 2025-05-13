@@ -123,10 +123,11 @@ For more detailed technical information, see the [Deployment Documentation](./do
 
 ## Live Examples
 
-- **Official Website**: Coming soon
+- **Official Website**: [decentralizedlaw.org/laws/dbol/](https://decentralizedlaw.org/laws/dbol/)
 - **Ethereum Contract**: [0xdD7150425FE924f1e5D4d650AEBaA6365b1CB7dA](https://etherscan.io/address/0xdD7150425FE924f1e5D4d650AEBaA6365b1CB7dA)
 - **PDF Document**: [Decentralized Bill of Liberties.pdf](./assets/decentralized-bill-of-liberties.pdf)
 - **IPFS**: [ipfs://bafkreictr35gzfbpfvgjisui3k3pm2nms4h3mx2hlyezxfjc2kca2f34du](https://ipfs.io/ipfs/bafkreictr35gzfbpfvgjisui3k3pm2nms4h3mx2hlyezxfjc2kca2f34du)
+- **Archive.org: [archive.org/details/decentralized-bill-of-liberties](https://archive.org/details/decentralized-bill-of-liberties)
 
 ## Coming Soon
 
